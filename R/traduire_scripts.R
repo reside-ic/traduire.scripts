@@ -1,5 +1,4 @@
 make_translation_summary <- function(output_path, ...) {
-  browser()
   args <- list(...)
   translations <- lapply(args, summarise_dir)
   ## / is special character and cannot be used as name of a sheet in xl
